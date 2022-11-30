@@ -1,4 +1,5 @@
 from datetime import datetime
+from write_read import read_f
 
 dt = datetime.now()
 users = {"jb@gmail.com":{"id":dt ,"name":"john" , "pass":123}}
@@ -30,6 +31,11 @@ if ans.lower() == "l":
             print(f"\n| ACC_NAME:\t {name}")
             print(f"\n| ACC_NO:\t {acc_details}")
             print(f"\n| ACC_BALANCE:\t {acc_balance}")
+
+
+
+
+
 
 
 
